@@ -331,7 +331,7 @@ with st.sidebar:
     compact_mode = st.checkbox("Compact UI (less spacing)", value=False)
     show_refs = st.checkbox("Show reference narrative when available", value=True)
     st.markdown("---")
-    st.markdown("Made with ❤️ — REGEN UI")
+    st.markdown("Made by Shreya")
 
 # Load dataframe
 try:
@@ -526,3 +526,4 @@ if gen_button:
 
 # Footer with tips
 st.markdown("<div style='margin-top:18px; color: #9aa8b2'>Tip: You can tweak generation hyperparameters in the left panel for shorter, more creative, or more conservative outputs.</div>", unsafe_allow_html=True)
+
