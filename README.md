@@ -33,6 +33,10 @@ We use the **REGEN dataset** ([Sayana et al., 2024](https://arxiv.org/abs/2410.1
 Each user has purchase history, metadata, and generated summaries.  
 This repository uses a **subset of 10,000 users** per domain for computational feasibility.
 
+## 🚀 Live Demo
+Try the interactive Streamlit app here:  
+👉 **[https://user-narrative-generator.streamlit.app/](https://user-narrative-generator.streamlit.app/)**  
+
 ---
 
 ## ⚙️ Installation
@@ -49,3 +53,5 @@ venv\Scripts\activate       # (Windows)
 
 # 3️⃣ Install dependencies
 pip install -r requirements.txt
+
+
